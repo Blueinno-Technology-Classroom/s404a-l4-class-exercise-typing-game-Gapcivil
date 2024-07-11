@@ -33,7 +33,7 @@ def update():
     if not (player.image in player_die_img):
         zombie.x-=3
     if player.image==player_die_img[-1]:
-        player.images==player_idle_img
+        player.images=player_idle_img
         player.fps=20
     if zombie.left<=0:
         zombie.right=WIDTH+100
